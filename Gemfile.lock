@@ -139,6 +139,7 @@ GEM
       metaclass (~> 0.0.1)
     multi_json (1.7.7)
     multipart-post (1.2.0)
+    mysql2 (0.3.13)
     nestful (0.0.8)
       activesupport (>= 3.0.0.beta)
     nokogiri (1.5.9)
@@ -280,6 +281,7 @@ DEPENDENCIES
   jquery-ui-rails
   launchy
   less-rails
+  mysql2
   nestful
   omniauth-meetup
   pg
