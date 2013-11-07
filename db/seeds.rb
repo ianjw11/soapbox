@@ -1,3 +1,4 @@
+require 'database_cleaner' 
 DatabaseCleaner.orm = 'active_record'
 DatabaseCleaner.strategy = :truncation
 DatabaseCleaner.clean
