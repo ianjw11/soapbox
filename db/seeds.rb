@@ -1,7 +1,7 @@
-require 'database_cleaner' 
-DatabaseCleaner.orm = 'active_record'
-DatabaseCleaner.strategy = :truncation
-DatabaseCleaner.clean
+
+#DatabaseCleaner.orm = 'active_record'
+#DatabaseCleaner.strategy = :truncation
+#DatabaseCleaner.clean
 
 meeting = Meeting.create(date: Date.current)
 # FactoryGirl.create(:topic, :title => "Topic 2", :description => "This is a topic", meeting_id: meeting.id) 
