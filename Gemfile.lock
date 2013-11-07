@@ -70,7 +70,7 @@ GEM
       sass (~> 3.1)
     compass-rails (1.0.3)
       compass (>= 0.12.2, < 0.14)
-    database_cleaner (0.7.0)
+    database_cleaner (0.8.0)
     debug_inspector (0.0.2)
     debugger (1.6.0)
       columnize (>= 0.3.1)
@@ -270,7 +270,7 @@ DEPENDENCIES
   capybara (= 2.1.0.rc1)
   coffee-rails (~> 3.2.1)
   compass-rails
-  database_cleaner (= 0.7.0)
+  database_cleaner (= 0.8.0)
   devise
   dotenv-rails
   draper
