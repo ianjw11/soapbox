@@ -21,6 +21,17 @@ gem 'airbrake'
 gem 'unicorn'
 gem 'dotenv-rails'
 
+  gem 'capybara', '2.1.0.rc1'
+    gem 'launchy'
+      gem 'rspec-rails', '~> 2.0'
+        gem 'factory_girl_rails', '~> 4.0'
+          gem 'shoulda-matchers'
+            gem 'database_cleaner', '0.7.0'
+              gem 'ffaker'
+                gem 'pry-rails'
+                  gem 'pry-debugger'
+                    gem 'timecop'
+
 group :assets do
   gem 'sass-rails', '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
